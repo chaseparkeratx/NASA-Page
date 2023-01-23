@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
-body {
-  background-color: teal;
+header {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 100px;
+  display: flex;
+  text-orientation: center;
 }
