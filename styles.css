@@ -2,8 +2,44 @@
   box-sizing: border-box;
 }
 header {
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/01/21/20/earth-1365995_1280.jpg);
   font-family: 'Ubuntu', sans-serif;
   font-size: 100px;
+  color: whitesmoke;
   display: flex;
   text-orientation: center;
+}
+.Bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+article {
+  display: flex;
+  flex-direction: column;
+}
+#Social {
+  border: ridge black 5px;
+  background-color: rgb(71, 71, 135);
+  width: 100%;
+  height: auto;
+  align-items: baseline;
+
+}
+#Info {
+  border: ridge black 5px;
+  background-color: rgb(71, 71, 135);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+#Contact {
+  border: ridge black 5px;
+  background-color: rgb(71, 71, 135);
+  width: 100%;
+  height: auto
+}
+button {
+  width: auto;
+  background-color: rgb(2, 7, 145);
 }
